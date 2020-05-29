@@ -1,65 +1,69 @@
-html,
-body {
-  height: 100%;
-}
-
-body {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+body{
+  text-align: center;
 
 }
+form{
+  font-size: 1.5em;
+  margin-bottom: 5px;
 
-.form-signup {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-.form-signup.form-control {
-  position: relative;
-  box-sizing: border-box;
-  height: auto;
-  padding: 10px;
-  font-size: 16px;
-}
-.form-signup .form-control:focus {
-  z-index: 2;
-}
-.top  {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-radius: 25px;
-}
-.middle {
-    border-radius: 0;
-    margin-bottom: -1px;
-    border-radius: 25px;
-}
-.bottom  {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-radius: 25px;
-}
-.h3 {
-    padding-bottom: 5%;
-}
-.btn{
-  border-radius: 25px;
 }
 #sub{
-  background-color: #ff9f1c;
-  height: 40px;
-  width: 100px;
-  margin: 4px;
+  background-color: #000103;
+  background: #254cf7;
+  height: 45px;
+  width: 400px;
+  margin: 8px;
   margin-top: 12px;
   font-size: 1em;
   border-radius: 20px;
+  margin-top: 50px;
+
+}
+#name{
+  background-color: black;
+  background: white;
+  height: 40px;
+  width: 400px;
+  margin: 8px;
+  margin-top: 30px;
+  font-size: 1em;
+  border-radius: 20px;
+  padding-left: 10px;
+
+}
+#age{
+  background-color: black;
+  background: white;
+  height: 45px;
+  width: 400px;
+  margin: 8px;
+  margin-top: 12px;
+  font-size: 1em;
+  border-radius: 20px;
+    padding-left: 10px;
+
+}
+#phn{
+  background-color: black;
+  background: white;
+  height: 45px;
+  width: 400px;
+  margin: 8px;
+  margin-top: 12px;
+  font-size: 1em;
+  border-radius: 20px;
+    padding-left: 10px;
+
+}
+#Email{
+  background-color: black;
+  background: white;
+  height: 45px;
+  width: 400px;
+  margin: 8px;
+  margin-top: 12px;
+  font-size: 1em;
+  border-radius: 20px;
+    padding-left: 10px;
 
 }

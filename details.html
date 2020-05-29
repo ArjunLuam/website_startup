@@ -5,29 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENTER DETAILS</title>
 
-<link href="css/styles.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="public/css/styles.css" rel="stylesheet">
+<link rel="icon" href="public/images/fav.ico">
 
 </head>
-
-
-
 <body class="text-center" style="background:url(https://image.freepik.com/free-photo/watercolor-splash-background_23-2148175602.jpg)">
 
-    <form action="show_details.html" method="get" class="">
-    <img class="mb-4" src="images/hill_code_logo.png" class="logo" width="72" height="72">
+
+    <img class="mb-4" src="public/images/hill_code_logo.png" class="logo" width="120" height="120">
     <br>
     <h1 class="h3 mb-3 font-weight-normal"><strong>SIGN UP</strong> </h1>
  <br>
-  <input type="text" name="name" class="form-control top"  placeholder="Name" required autofocus>
- <br>
- <input type="text" name="age" class="form-control top"  placeholder="Age" required autofocus>
-<br>
-  <input type="tel" name="phone" class="form-control middle" placeholder="Phone Number" required autofocus>
-  <br>
-  <input type="email" name="email" class="form-control bottom" placeholder="Email" required autofocus>
-  <br><br>
-  <button id = "sub" class="btn btn-lg btn-primary btn-block" type="submit">SIGN UP</button>
-</form>
-</body>
+<form class="form" action="show_details.html" method="post">
 
+ <input id="name"type="text"  placeholder="Name">
+ <br>
+
+
+ <input id="age"type="text"  placeholder="Age">
+ <br>
+
+ <input id="phn"type="tel"  placeholder="Phone number">
+ <br>
+
+  <input id="Email"type="email"  placeholder="Email">
+  <br>
+  <input id="sub" type="submit" name="" value="sign up!">
+
+</form>
+
+</body>
 </html>
