@@ -3180,6 +3180,7 @@ input, select, textarea {
 		background-color: #2e3141;
 		margin: 6.5em 0;
 		position: relative;
+		
 	}
 
 		.wrapper:before, .wrapper:after {
@@ -3235,7 +3236,9 @@ input, select, textarea {
 		.wrapper .inner {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
-			width: 55em;
+
+			
+
 		}
 
 		.wrapper.style2 {
@@ -3460,3 +3463,4 @@ input, select, textarea {
 			}
 
 		}
+
