@@ -3177,7 +3177,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-image: url(public/image/1.jpg);
 		margin: 6.5em 0;
 		position: relative;
 		
