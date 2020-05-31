@@ -2,6 +2,7 @@ body{
   text-align: center;
  margin-top: 100px;
 
+
 }
 form{
   font-size: 1.5em;
@@ -9,8 +10,8 @@ form{
 
 }
 #sub{
-  background-color: #000103;
-  background: #254cf7;
+  background-color: #4267ed;
+  background: #4267ed;
   height: 45px;
   width: 400px;
   margin: 8px;
