@@ -3365,7 +3365,8 @@ input, select, textarea {
 				.wrapper.spotlight.style3:after {
 					box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
 				}
-
+			
+			
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
