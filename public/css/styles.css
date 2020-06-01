@@ -10,12 +10,12 @@ form{
 }
 #sub{
   background-color: #000103;
-  background: #254cf7;
+  background: grey;
   height: 45px;
   width: 400px;
   margin: 8px;
   margin-top: 50px;
-  margin-left: 10px;
+  margin-left: 340px;
   font-size: 1em;
   border-radius: 20px;
 
@@ -27,6 +27,7 @@ form{
   height: 40px;
   width: 400px;
   margin: 8px;
+  margin-left: 340px;
   margin-top: 30px;
   font-size: 1em;
   border-radius: 20px;
@@ -40,6 +41,7 @@ form{
   width: 400px;
   margin: 8px;
   margin-top: 12px;
+  margin-left: 340px;
   font-size: 1em;
   border-radius: 20px;
     padding-left: 10px;
@@ -52,6 +54,7 @@ form{
   width: 400px;
   margin: 8px;
   margin-top: 12px;
+  margin-left: 340px;
   font-size: 1em;
   border-radius: 20px;
     padding-left: 10px;
@@ -65,10 +68,41 @@ form{
   margin: 8px;
   margin-top: 12px;
   font-size: 1em;
+  margin-left: 340px;
   border-radius: 20px;
     padding-left: 10px;
-
 }
+
 .animation{
+  margin-left:100px;
+}
+.art{
   margin: auto;
+  
+}
+.mb-3{
+  margin-right:-450px;
+}
+
+
+.Am:hover,
+.Am:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  margin: 20px;
+}
+.Dh:hover,
+.Dh:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.An:hover,
+.An:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.Ka:hover,
+.Ka:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
 }
