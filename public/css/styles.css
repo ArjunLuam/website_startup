@@ -71,6 +71,7 @@ form{
   margin-left: 340px;
   border-radius: 20px;
     padding-left: 10px;
+    
 }
 
 .animation{
@@ -132,4 +133,14 @@ form{
 .Ka:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
+}
+::-webkit-input-placeholder{
+  color:black;
+  opacity: 1;
+}
+:-ms-input-placeholder{
+  color:black;
+}
+::-moz-placeholder{
+  color: black;
 }

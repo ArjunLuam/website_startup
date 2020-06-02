@@ -3482,4 +3482,14 @@ input, select, textarea {
 		  .container-fluid{
 			padding: 7% 15%;
 		  }
+		  ::-webkit-input-placeholder{
+			color:black;
+			opacity: 1;
+		  }
+		  :-ms-input-placeholder{
+			  color:black;
+		  }
+		  ::-moz-placeholder{
+			  color: black;
+		  }
 		  
