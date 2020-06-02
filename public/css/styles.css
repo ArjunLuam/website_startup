@@ -78,7 +78,8 @@ form{
 }
 .art{
   margin: auto;
-  
+  margin-bottom:  500px;
+
 }
 .mb-3{
   margin-right:-450px;
@@ -89,7 +90,6 @@ form{
 .Am:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
-  margin: 20px;
 }
 .Dh:hover,
 .Dh:focus {
