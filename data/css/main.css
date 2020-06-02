@@ -3466,3 +3466,18 @@ input, select, textarea {
 		}
 
 	
+		.testimonial-text {
+			font-size: 3rem;
+			line-height: 1.5;
+			color: white;
+		  } 
+		  
+		  .testimonial-image {
+			width: 10%;
+			border-radius: 100%;
+			margin: 20px;
+		  }
+		  .container-fluid{
+			padding: 7% 15%;
+		  }
+		  
