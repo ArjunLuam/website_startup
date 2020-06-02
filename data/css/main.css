@@ -2903,6 +2903,7 @@ input, select, textarea {
 
 			#menu .links li {
 				padding: 0;
+				
 			}
 
 				#menu .links li a {
@@ -2919,7 +2920,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: black;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3480,5 +3481,15 @@ input, select, textarea {
 		  }
 		  .container-fluid{
 			padding: 7% 15%;
+		  }
+		  ::-webkit-input-placeholder{
+			color:black;
+			opacity: 1;
+		  }
+		  :-ms-input-placeholder{
+			  color:black;
+		  }
+		  ::-moz-placeholder{
+			  color: black;
 		  }
 		  

@@ -12,7 +12,20 @@
 		<link rel="icon" href="public/images/fav.ico">
     <link rel="stylesheet" href="public/css/styles.css">
 
-		<noscript><link rel="stylesheet" href="data/css/noscript.css" /></noscript>
+    <noscript><link rel="stylesheet" href="data/css/noscript.css" /></noscript>
+    <style>
+      ::placeholder {
+        color: red;
+        opacity: 1; /* Firefox */
+      }
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
+      </style>
 	</head>
 	<body class="is-preload">
 
@@ -41,15 +54,33 @@
                             
                            <form class="form" action="show_details.html" method="get">
 
-                            <input style="background-color: grey;" id="name"type="text"  placeholder="Name" required autofocus>
-                           <input style="background-color: grey;" id="age"type="text"  placeholder="Age"  required autofocus>
+                            <input  style="background-color: rgb(209, 209, 208);  border: solid 2px;";  border: solid 2px;" id="name"type="text"  placeholder="Name" required autofocus>
+                           <input   style="background-color: rgb(209, 209, 208); border: solid 2px;" id="age"type="text"  placeholder="Age"  required autofocus>
                             
-                            <input style="background-color: grey;"id="phn"type="tel"  placeholder="Phone number" required autofocus>
+                            <input  style="background-color: rgb(209, 209, 208); border: solid 2px;"id="phn"type="tel"  placeholder="Phone number" required autofocus>
                             
-                             <input style="background-color: grey;" id="Email"type="email"  placeholder="Email"  required autofocus>
-                          <input style="background-color: blue" id="sub"type="submit"  placeholder="sign up">
-                          
-                           </form>
+                             <input style="background-color: rgb(209, 209, 208); border: solid 2px;" id="Email"type="email"  placeholder="Email"  required autofocus>
+                          <input  style="background-color: rgb(80, 186, 228); border: solid 2px;" id="sub"type="submit"  placeholder="sign up">
+                   
+                           </form> -->
+                           <!-- <form class="form" action="show_details.html" method="get">
+
+                            <input id="name" type="text" placeholder="Name" required="" autofocus="">
+                            <br>
+                    
+                    
+                            <input id="age" type="text" placeholder="Age" required="" autofocus="">
+                            <br>
+                    
+                            <input id="phn" type="tel" placeholder="Phone number" required="" autofocus="">
+                            <br>
+                    
+                             <input id="Email" type="email" placeholder="Email" required="" autofocus="">
+                             <br>
+                    
+                             <input id="sub" type="submit" placeholder="sign up">
+                             <br>
+                           </form> -->
 
                         </div>
                     </div>
