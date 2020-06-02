@@ -6,7 +6,6 @@ body{
 form{
   font-size: 1.5em;
   margin-bottom: 5px;
-  font-family:
 
 }
 #sub{
@@ -34,10 +33,6 @@ form{
   border-radius: 20px;
   padding-left: 10px;
 
-}
-.display{
-  font-family: 'Copse', serif;
-  margin-right: 370px;
 }
 #age{
   background-color: black;
@@ -76,11 +71,7 @@ form{
   margin-left: 340px;
   border-radius: 20px;
     padding-left: 10px;
-<<<<<<< HEAD
-
-=======
     
->>>>>>> c8ec61df153df6d86597415443e5b9c8aa276cb0
 }
 
 .animation{
@@ -88,7 +79,7 @@ form{
 }
 .art{
   margin: auto;
-
+  
 }
 .mb-3{
   margin-right:-450px;
