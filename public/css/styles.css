@@ -1,7 +1,9 @@
 body{
   text-align: center;
  margin-top: 100px;
-
+}
+#none{
+  text-align: center;
 }
 form{
   font-size: 1.5em;
@@ -11,7 +13,7 @@ form{
 .display{
   font-family: 'Copse', serif;
   margin-right: 370px;
-  
+
 }
 #sub{
   background-color: #000103;
