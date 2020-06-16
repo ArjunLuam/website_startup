@@ -3233,8 +3233,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-image: url(public/image/1.jpg);
-		margin: 0;
+	
 		position: relative;
 		
 	}
@@ -3529,7 +3528,7 @@ input, select, textarea {
 		  .container-fluid{
 			padding: 7% 15%;
 		  }
-		  ::-webkit-input-placeholder{
+		  /* ::-webkit-input-placeholder{
 			color:black;
 			opacity: 1;
 		  }
@@ -3538,5 +3537,5 @@ input, select, textarea {
 		  }
 		  ::-moz-placeholder{
 			  color: black;
-		  }
+		  } */
 		  
