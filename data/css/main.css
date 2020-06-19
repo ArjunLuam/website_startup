@@ -3526,7 +3526,8 @@ input, select, textarea {
 			margin: 20px;
 		  }
 		  .container-fluid{
-			padding: 7% 15%;
+			padding: 3% 15%;
+			padding-top: 5%;
 		  }
 		  /* ::-webkit-input-placeholder{
 			color:black;
