@@ -149,3 +149,18 @@ form{
 ::-moz-placeholder{
   color: black;
 }
+.card{
+  width: 100%;
+  color: #000103;
+}
+.card-header{
+
+  background-color: #e29774;
+  box-shadow: solid;
+}
+.card-img-top{
+  width: 100%;
+}
+.cards{
+  background-color: #D67C52;
+}
