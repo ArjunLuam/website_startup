@@ -1,3 +1,9 @@
+.display{
+	margin-left: 375px;
+	margin-bottom: 70px;
+	font-family: 'Fredoka One', cursive;
+	font-weight: bold;
+}
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
@@ -244,9 +250,9 @@ input, select, textarea {
 				font-weight: 700;
 				letter-spacing: 0.1em;
 				margin: 0 0 2em 0;
-			
+
 			}
-	
+
 				a.signup:not(.button):before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
@@ -256,10 +262,10 @@ input, select, textarea {
 					text-rendering: auto;
 					line-height: 1;
 					text-transform: none !important;
-					
+
 					font-weight: 900;
 				}
-	
+
 				a.signup:not(.button):before {
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
@@ -267,7 +273,7 @@ input, select, textarea {
 					transition: background-color 0.2s ease-in-out;
 					border-radius: 100%;
 					border: solid 2px rgba(255, 255, 255, 0.125);
-					
+
 					display: inline-block;
 					font-size: 1.25em;
 					height: 2em;
@@ -278,11 +284,11 @@ input, select, textarea {
 					vertical-align: middle;
 					width: 2em;
 				}
-	
+
 				a.signup:not(.button):hover:before {
 					background-color: rgba(255, 255, 255, 0.025);
 				}
-	
+
 				a.signup:not(.button):active:before {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
@@ -2957,7 +2963,7 @@ input, select, textarea {
 
 			#menu .links li {
 				padding: 0;
-				
+
 			}
 
 				.links li a {
@@ -3233,9 +3239,9 @@ input, select, textarea {
 	}
 
 	.wrapper {
-	
+
 		position: relative;
-		
+
 	}
 
 		.wrapper:before {
@@ -3288,7 +3294,7 @@ input, select, textarea {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
 
-			
+
 
 		}
 
@@ -3296,7 +3302,7 @@ input, select, textarea {
 			background-color: #353849;
 		}
 
-			
+
 
 			.wrapper.style2:before {
 				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
@@ -3306,13 +3312,13 @@ input, select, textarea {
 				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
 			}
 
-		
+
 
 		.wrapper.spotlight {
 			background-color: #e8936c;
 		}
 
-		
+
 			.wrapper.spotlight:before {
 				box-shadow: inset 0 -1px 0 0 #e8936c, 0 1px 0 0 #e8936c;
 			}
@@ -3370,7 +3376,7 @@ input, select, textarea {
 				background-color: #d67c52;
 			}
 
-			
+
 				.wrapper.spotlight.style2:before {
 					box-shadow: inset 0 -1px 0 0 #d67c52, 0 1px 0 0 #d67c52;
 				}
@@ -3383,7 +3389,7 @@ input, select, textarea {
 				background-color: #8f8783c7;
 			}
 
-				
+
 
 				.wrapper.spotlight.style3:before {
 					box-shadow: inset 0 -1px 0 0 #8f8783c7, 0 1px 0 0 #8f8783c7;
@@ -3392,7 +3398,7 @@ input, select, textarea {
 				.wrapper.spotlight.style3:after {
 					box-shadow: inset 0 -1px 0 0 #8f8783c7, 0 1px 0 0 #8f8783c7;
 				}
-			
+
 			.wrapper.spotlight.style4 {
 				background-color: #6e6a66c7;
 			}
@@ -3409,12 +3415,12 @@ input, select, textarea {
 			.wrapper.spotlight.style5 {
 					background-color: #6e6a66c7;
 				}
-	
-	
+
+
 					.wrapper.spotlight.style5:before {
 						box-shadow: inset 0 -1px 0 0 #6e6a66c7, 0 1px 0 0 #6e6a66c7;
 					}
-	
+
 					.wrapper.spotlight.style5:after {
 						box-shadow: inset 0 -1px 0 0 #6e6a66c7, 0 1px 0 0 #6e6a66c7;
 					}
@@ -3513,13 +3519,13 @@ input, select, textarea {
 
 		}
 
-	
+
 		.testimonial-text {
 			font-size: 3rem;
 			line-height: 1.5;
 			color: white;
-		  } 
-		  
+		  }
+
 		  .testimonial-image {
 			width: 10%;
 			border-radius: 100%;
@@ -3528,7 +3534,7 @@ input, select, textarea {
 		  .container-fluid{
 			padding: 3% 15%;
 			padding-bottom: %;
-			
+
 		  }
 		  /* ::-webkit-input-placeholder{
 			color:black;
@@ -3540,4 +3546,3 @@ input, select, textarea {
 		  ::-moz-placeholder{
 			  color: black;
 		  } */
-		  
