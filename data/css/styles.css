@@ -149,3 +149,7 @@ form{
 ::-moz-placeholder{
   color: black;
 }
+
+.picture{
+  border-radius: 50%;;
+}
