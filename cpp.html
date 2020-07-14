@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="public/images/fav.ico">
+
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://nict.edu.in/xmlrpc.php">
+
+<title>cpp</title>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="alternate" type="application/rss+xml" title="National Institute of Computer Technology (NICT) » Feed" href="http://nict.edu.in/feed/">
+    <link rel="alternate" type="application/rss+xml" title="National Institute of Computer Technology (NICT) » Comments Feed" href="http://nict.edu.in/comments/feed/">
+    <link rel="alternate" type="application/rss+xml" title="National Institute of Computer Technology (NICT) » C++ Language Comments Feed" href="http://nict.edu.in/courses/c-language-2/feed/">
+		  <script type="text/javascript">
+		     window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/nict.edu.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.7"}};
+			      !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+          </script><script src="http://nict.edu.in/wp-includes/js/wp-emoji-release.min.js?ver=5.2.7" type="text/javascript" defer=""></script>
+		<style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+	       display: inline !important;
+	        border: none !important;
+	         box-shadow: none !important;
+	          height: 1em !important;
+	           width: 1em !important;
+	            margin: 0 .07em !important;
+	             vertical-align: -0.1em !important;
+	              background: none !important;
+	           padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="lp-course-wishlist-style-css" href="http://nict.edu.in/wp-content/plugins/learnpress-wishlist/assets/css/wishlist.css?ver=5.2.7" type="text/css" media="all">
+<link rel="stylesheet" id="education-icon-collection-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/assets/css/education-icon-collection.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="http://nict.edu.in/wp-includes/css/dist/block-library/style.min.css?ver=5.2.7" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="http://nict.edu.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.4" type="text/css" media="all">
+<link rel="stylesheet" id="searchandfilter-css" href="http://nict.edu.in/wp-content/plugins/search-filter/style.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="theme-my-login-css" href="http://nict.edu.in/wp-content/plugins/theme-my-login/assets/styles/theme-my-login.min.css?ver=7.0.11" type="text/css" media="all">
+<link rel="stylesheet" id="bright-style-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/style.css?ver=5.2.7" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/css/bootstrap.min.css?ver=3.3.7" type="text/css" media="all">
+<link rel="stylesheet" id="owl-carousel-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/css/owl.carousel.css?ver=1.3.3" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesoume-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/assets/css/font-awesome.min.css?ver=4.6.3" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/assets/css/animate.css?ver=4.6.3" type="text/css" media="all">
+<link rel="stylesheet" id="bright-main-style-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/css/main.min.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="bright-color-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/css/color.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="bright-custom-css" href="http://nict.edu.in/wp-content/themes/full-package/bright/css/custom.css?ver=1.0" type="text/css" media="all">
+<style id="bright-custom-inline-css" type="text/css">
+.logo-wrapper img { max-height: 70px; }.navbar.navbar-bright .affix .logo-wrapper .custom-logo-link img { max-width: 121px; }.navbar.navbar-bright .affix .logo-wrapper .custom-logo-link img { max-height: 70px; }
+		    .logo-wrapper .custom-logo-link {
+		        margin-top: 5px;
+		        margin-bottom: 5px;
+		    }
+		    @media (min-width: 768px){
+			    .navbar.navbar-bright .navbar-nav>li>a {
+			        padding-top: 25px;
+			        padding-bottom: 25px;
+			        padding-left: 20px;
+			        padding-right: 20px;
+			    }
+			}
+			h1, h2, h3, h4, h5, h6,
+			.teacher.bright-instructor-content-type-grid .teacher-item .teacher-desc a h3,
+			.teacher.bright-instructor-content-type-slider .teacher-item .teacher-desc a h3,
+			.courses-wrap .course-detail-wrap .course-content h3 a,
+			.bright_vc_row-color-white .ep_sign_up_now h2,
+			.bright_vc_row-color-white .ep_sign_up_now h4 {
+				color: #212121;
+			}
+			.footer-widgets {
+				padding-top: 75px;
+			    padding-bottom: 35px;
+			    background: #22272b;
+			    color: #aaaaaa;
+			}
+			.footer-widgets .widget-title {
+				color: #ffffff;
+			}
+			.footer-widgets a,
+			.footer-widgets .news-grid-item .news-title a,
+			.footer-widgets .teacher-item .teacher-desc h3,
+			.footer-widgets .courses-wrap .course-detail-wrap .course-content h3 a {
+				color: #aaaaaa;
+			}
+			.site-info {
+				padding-top: 15px;
+			    padding-bottom: 15px;
+			    background: #1d2023;
+			    color: #999;
+			}
+			.site-info a {
+				color: #fff;
+			}
+			.bright-course-slider .bright-course-item figcaption {
+			    min-height: 170px;
+			}
+			.navbar.navbar-bright {
+				background: #ffffff;
+			}
+			body.page .navbar.navbar-bright.header-transparent .site-header-wrapper, body.bright-global-page-header-transparent .navbar.navbar-bright .site-header-wrapper {
+				background: rgba(0, 0, 0, 0.7)!important;
+			}
+			.navbar-default .navbar-nav>li>a {
+				color: #444;
+			}
+			.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-bright .bright-main-menu-wrapper .navbar-nav li.current-menu-ancestor>a {
+			    color: #FF4F57;
+			}
+			.navbar-bright .bright-main-menu-wrapper .dropdown-menu li>a:hover {
+				color: #ffffff;
+			}
+			.header-transparent.navbar-bright .navbar-nav>li>a, body.bright-global-page-header-transparent .navbar-bright .navbar-nav>li>a, .logo-wrapper .site-title.site-title-transparent a {
+			    color: #dadada;
+			}
+			.header-transparent.navbar-bright .navbar-nav>li>a:hover, body.bright-global-page-header-transparent .navbar-bright .navbar-nav>li>a:hover {
+			    color: #ffffff;
+			}
+			.navbar-bright .bright-main-menu-wrapper .dropdown-menu {
+				background: #ffffff;
+			}
+			.navbar-bright .bright-main-menu-wrapper .dropdown-menu li>a {
+				color: #656565;
+			}
+			@media (min-width: 768px){
+				.navbar-bright .bright-main-menu-wrapper .dropdown-menu {
+					min-width: 260px;
+				}
+			}
+			.bright-page-title-area:before {
+				background: rgba(0, 0, 0, 0.7);
+			}
+			.bright-page-title-area {
+				padding-top: 69px;
+				padding-bottom: 69px;
+			}
+			#bbpress-forums,
+			#bbpress-forums .bbp-forum-info .bbp-forum-content,
+			#bbpress-forums p.bbp-topic-meta,
+			.ep_sign_up_now,
+			.bright_vc_row-color-white .testimonial-item,
+			body {
+				color: #444444;
+				line-height: 25px;
+				font-size: 15px;
+			}
+			body {
+				background: #db8267;
+			}
+		    .bright-pre-header {
+		    background: #FF4F57;
+		    color: #ffffff;
+		}
+		.bright-pre-header a {
+			color: #ffffff;
+		}
+    </style>
+          <link rel="stylesheet" id="bright-main-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400i%2C500%2C500i%2C700%2C900%7CMontserrat%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subset" type="text/css" media="all">
+          <link rel="stylesheet" id="course-review-css" href="http://nict.edu.in/wp-content/plugins/learnpress-course-review/assets/css/course-review.css?ver=5.2.7" type="text/css" media="all">
+          <link rel="stylesheet" id="dashicons-css" href="http://nict.edu.in/wp-includes/css/dashicons.min.css?ver=5.2.7" type="text/css" media="all">
+          <link rel="stylesheet" id="font-awesome-css" href="http://nict.edu.in/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.5.4" type="text/css" media="all">
+            <link rel="stylesheet" id="learn-press-css" href="http://nict.edu.in/wp-content/plugins/learnpress/assets/css/learnpress.css?ver=3.0.12.1" type="text/css" media="all">
+                <link rel="stylesheet" id="jquery-scrollbar-css" href="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/vendor/jquery-scrollbar/jquery.scrollbar.css?ver=3.0.12.1" type="text/css" media="all">
+                <script type="text/javascript" src="http://nict.edu.in/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"></script>
+                <script type="text/javascript" src="http://nict.edu.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+                <script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress-wishlist/assets/js/wishlist.js?ver=5.2.7"></script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var themeMyLogin = {"action":"","errors":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/theme-my-login/assets/scripts/theme-my-login.min.js?ver=7.0.11"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/vendor/watch.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/vendor/jquery.alert.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/vendor/circle-bar.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-includes/js/underscore.min.js?ver=1.8.3"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1594720826","secure":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://nict.edu.in/wp-includes/js/utils.min.js?ver=5.2.7"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/global.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/vendor/jquery-scrollbar/jquery.scrollbar.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/frontend/learnpress.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/frontend/checkout.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/frontend/course.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/vendor/jquery.scrollTo.js?ver=3.0.12.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress/assets/js/frontend/become-teacher.js?ver=3.0.12.1"></script>
+<link rel="https://api.w.org/" href="http://nict.edu.in/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://nict.edu.in/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://nict.edu.in/wp-includes/wlwmanifest.xml">
+<link rel="prev" title="C Language" href="http://nict.edu.in/courses/c-language/">
+<link rel="next" title="Java (Core)" href="http://nict.edu.in/courses/java-core/">
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="lp_course-template-default single single-lp_course postid-5272 wp-custom-logo full-package/bright learnpress learnpress-page bright-global-page-header-default wpb-js-composer js-comp-ver-5.5.4 vc_responsive">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+
+			<header id="masthead" class="site-header-type-default site-header navbar navbar-default navbar-bright">
+						<div class="bright-pre-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5 bright-pre-header-item-left">
+													</div>
+						<div class="col-sm-7 bright-pre-header-item-right text-right">
+							<div class="quick-contacts pull-right">
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="site-header-wrapper affix" data-spy="affix" data-offset-top="50">
+				<div class="container">
+					<div class="site-header-inner clearfix">
+						<div class="site-branding navbar-header">
+							           </div>
+        						</div><!-- .site-branding -->
+
+													<div class="header-search pull-right hidden-xs">
+
+				            </div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</header><!-- #masthead -->
+
+
+											<div class="bright-breadcrumb-wrapper">
+							<div class="container">
+
+						</div>
+									</div>
+
+	<div id="content" class="site-content container">
+					<div class="bright-main-content-inner row">
+
+	<div id="primary" class="content-area col-md-12">
+		<main id="main" class="site-main">
+
+
+<article id="post-5272" class="bright-single-course-item post-5272 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-core-programming-languages course_tag-c-language course_tag-object-oriented-programming course_tag-programming-languages course">
+
+
+
+
+<div id="lp-single-course" class="lp-single-course">
+
+
+	<div id="learn-press-course" class="course-summary">
+
+
+<div class="course-landing-summary">
+
+
+
+			</div>
+
+
+
+
+
+
+<div class="lp-course-buttons">
+
+
+</div>		</div>
+					</div>
+
+<div class="course-thumbnail">
+	<a href="http://nict.edu.in/wp-content/uploads/2018/09/NICT-C-Language-1.png" itemprop="image" class="learn-press-single-thumbnail" title="NICT C++ Language"><img width="490" height="490" src="http://nict.edu.in/wp-content/uploads/2018/09/NICT-C-Language-1.png" class="attachment-single_course size-single_course wp-post-image" alt="NICT C++ Language" title="NICT C++ Language" srcset="http://nict.edu.in/wp-content/uploads/2018/09/NICT-C-Language-1.png 490w, http://nict.edu.in/wp-content/uploads/2018/09/NICT-C-Language-1-150x150.png 150w, http://nict.edu.in/wp-content/uploads/2018/09/NICT-C-Language-1-300x300.png 300w, http://nict.edu.in/wp-content/uploads/2018/09/NICT-C-Language-1-480x480.png 480w" sizes="(max-width: 490px) 100vw, 490px"></a></div>
+
+
+
+<div id="learn-press-course-tabs" class="course-tabs">
+
+    <ul class="learn-press-nav-tabs course-nav-tabs">
+
+
+
+            <li class="course-nav course-nav-tab-overview default">
+                <a href="?tab=tab-overview" data-tab="#tab-overview">Overview</a>
+            </li>
+
+
+
+            <li class="course-nav course-nav-tab-curriculum active">
+                <a href="?tab=tab-curriculum" data-tab="#tab-curriculum">Curriculum</a>
+            </li>
+
+
+
+            <li class="course-nav course-nav-tab-instructor">
+                <a href="?tab=tab-instructor" data-tab="#tab-instructor">Instructor</a>
+            </li>
+
+
+
+            <li class="course-nav course-nav-tab-reviews">
+                <a href="?tab=tab-reviews" data-tab="#tab-reviews">Reviews</a>
+            </li>
+
+
+    </ul>
+
+
+        <div class="course-tab-panel-overview course-tab-panel" id="tab-overview">
+
+
+
+<div class="row">
+	<div class="bright-course-content col-md-8">
+		<div class="course-description" id="learn-press-course-description">
+
+			<p>C++ is a general purpose programming language that supports various computer programming models such as object-oriented programming and generic programming. It was created by Bjarne Stroustrup and, “Its main purpose was to make writing good programs easier and more pleasant for the individual programmer.”*</p>
+<p>By learning C++, you can create applications that will run on a wide variety of hardware platforms such as personal computers running Windows, Linux, UNIX, and Mac OS X, as well as small form factor hardware such as IoT devices like the Raspberry PI and Arduino–based boards.</p>
+
+		</div>
+	</div>
+			<div class="bright-course-info col-md-4">
+
+
+	     </div>
+	</div>
+</div>
+
+
+        <div class="course-tab-panel-curriculum course-tab-panel active" id="tab-curriculum">
+
+
+<div class="course-curriculum" id="learn-press-course-curriculum">
+
+    <div class="curriculum-scrollable">
+
+
+
+            <ul class="curriculum-sections">
+
+<li class="section section-empty" id="section-introduction-to-object-oriented-programming-26" data-id="introduction-to-object-oriented-programming-26" data-section-id="26">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Introduction to Object Oriented Programming</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-input-output-in-c-27" data-id="input-output-in-c-27" data-section-id="27">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Input / Output in C++</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-classes-objects-28" data-id="classes-objects-28" data-section-id="28">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Classes &amp; Objects</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-access-specifiers-29" data-id="access-specifiers-29" data-section-id="29">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Access Specifiers</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-function-overloading-30" data-id="function-overloading-30" data-section-id="30">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Function Overloading</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-default-arguments-31" data-id="default-arguments-31" data-section-id="31">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Default arguments</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-inline-functions-32" data-id="inline-functions-32" data-section-id="32">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Inline Functions</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-constructors-destructor-33" data-id="constructors-destructor-33" data-section-id="33">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Constructors &amp; Destructor</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-passing-returning-objects-as-arguments-34" data-id="passing-returning-objects-as-arguments-34" data-section-id="34">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Passing &amp; Returning Objects As Arguments</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-arrays-of-objects-35" data-id="arrays-of-objects-35" data-section-id="35">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Arrays of Objects</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-friend-functions-friend-classes-36" data-id="friend-functions-friend-classes-36" data-section-id="36">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Friend Functions &amp; Friend Classes</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section" id="section-operator-overloading-37" data-id="operator-overloading-37" data-section-id="37">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Operator Overloading</h5>
+
+
+    </div>
+
+
+</div>
+
+
+    <ul class="section-content">
+
+
+            <li class="course-item course-item-lp_lesson course-item-5274 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/unary-operator-overloading/">
+
+<span class="item-name">Unary Operator Overloading</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5275 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/binary-operator-overloading/">
+
+<span class="item-name">Binary Operator Overloading</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">01 hour</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5276 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/insertion-extraction-operator-overloading/">
+
+<span class="item-name">Insertion &amp; Extraction Operator Overloading</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+    </ul>
+
+
+</li>
+<li class="section" id="section-inheritance-38" data-id="inheritance-38" data-section-id="38">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Inheritance</h5>
+
+
+    </div>
+
+
+</div>
+
+
+    <ul class="section-content">
+
+
+            <li class="course-item course-item-lp_lesson course-item-5277 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/types-of-inheritance/">
+
+<span class="item-name">Types Of Inheritance</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5278 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/modes-of-inheritance/">
+
+<span class="item-name">Modes of Inheritance</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5279 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/constructors-in-inheritance/">
+
+<span class="item-name">Constructors in Inheritance</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5280 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/overriding-member-functions/">
+
+<span class="item-name">Overriding member functions</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5281 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/virtual-class/">
+
+<span class="item-name">Virtual Class</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5282 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/virtual-functions/">
+
+<span class="item-name">Virtual Functions</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5283 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/pure-virtual-functions-abstract-base-class/">
+
+<span class="item-name">Pure Virtual Functions &amp; Abstract Base Class</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+            <li class="course-item course-item-lp_lesson course-item-5284 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/containership/">
+
+<span class="item-name">Containership</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+
+
+            </li>
+
+
+    </ul>
+
+
+</li>
+<li class="section section-empty" id="section-dynamic-memory-allocation-de-allocation-using-new-delete-39" data-id="dynamic-memory-allocation-de-allocation-using-new-delete-39" data-section-id="39">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Dynamic Memory Allocation &amp; De-allocation using new &amp; delete</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-reference-variables-reference-objects-40" data-id="reference-variables-reference-objects-40" data-section-id="40">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Reference Variables &amp; Reference Objects</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section section-empty" id="section-pointer-to-object-41" data-id="pointer-to-object-41" data-section-id="41">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Pointer to Object</h5>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+			            <div class="learn-press-message success">
+                <i class="fa"></i>No items in this section            </div>
+
+
+
+
+
+</li>
+<li class="section" id="section-generic-programming-42" data-id="generic-programming-42" data-section-id="42">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">Generic Programming</h5>
+
+
+    </div>
+
+
+</div>
+
+
+    <ul class="section-content">
+
+
+            <li class="course-item course-item-lp_lesson course-item-5285 item-locked">
+				                        <a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/function-template/">
+
+<span class="item-name">Function Template</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+                        </a>
+            </li>
+            <li class="course-item course-item-lp_lesson course-item-5286 item-locked">
+<a class="section-item-link" href="http://nict.edu.in/courses/c-language-2/lessons/template-class/">
+
+<span class="item-name">Template Class</span>
+<div class="course-item-meta">
+
+	<span class="item-meta duration">30 min</span>	        <i class="fa item-meta course-item-status trans"></i>
+
+	</div>
+      </a>
+    </li>
+    </ul>
+
+
+</li>
+<li class="section section-empty" id="section-file-input-output-in-c-using-fstream-h-43" data-id="file-input-output-in-c-using-fstream-h-43" data-section-id="43">
+
+
+<div class="section-header">
+
+    <div class="section-left">
+
+		            <h5 class="section-title">File Input / Output in C++ using fstream.h</h5>
+
+    </div>
+
+
+</div>
+ <div class="learn-press-message success">
+      <i class="fa"></i>No items in this section
+  </div>
+</li></ul>
+</div>
+</div>
+</div>
+
+
+        <div class="course-tab-panel-instructor course-tab-panel" id="tab-instructor">
+
+
+<div class="course-author">
+
+    <h3>Instructor</h3>
+
+
+	<div class="row">
+		<div class="bright-author-avatar col-sm-2 col-xs-2">
+			<img alt="" src="http://2.gravatar.com/avatar/b6bdd7db4851de0c9fac1bf07ba15716?s=110&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b6bdd7db4851de0c9fac1bf07ba15716?s=220&amp;d=mm&amp;r=g 2x" class="avatar avatar-110 photo" height="110" width="110">		</div>
+		<div class="bright-author-content col-sm-10 col-xs-10">
+			<a href="http://nict.edu.in/profile/nictwpadmin/"></a>		    		</div>
+	</div>
+
+
+</div>
+        </div>
+
+
+        <div class="course-tab-panel-reviews course-tab-panel" id="tab-reviews">
+
+
+<div class="course-rate">
+	<div class="review-stars-rated" title="0 out of 5 stars">
+    <div class="review-stars empty"></div>
+    <div class="review-stars filled" style="width:0%;"></div>
+</div>
+
+					<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/nict.edu.in\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.4"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/bootstrap.min.js?ver=3.3.7"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/jquery.slicknav.min.js?ver=1.0.4"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/owl.carousel.js?ver=1.3.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/jquery.countdown.js?ver=2.2.0"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/jquery.magnific-popup.min.js?ver=1.1"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/jquery.matchHeight-min.js?ver=1.0"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.5.4"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/jquery.counterup.min.js?ver=1.0"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/jquery.mixitup.min.js?ver=2.1.11"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/main.js?ver=1.0"></script>
+<script type="text/javascript">
+(function($) {
+    'use strict';
+})(jQuery);
+</script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/themes/full-package/bright/js/skip-link-focus-fix.js?ver=20151215"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-includes/js/comment-reply.min.js?ver=5.2.7"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var learn_press_course_review = {"localize":{"empty_title":"Please enter the review title","empty_content":"Please enter the review content","empty_rating":"Please select your rating"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://nict.edu.in/wp-content/plugins/learnpress-course-review/assets/js/course-review.js?ver=5.2.7"></script>
+<script type="text/javascript" src="http://nict.edu.in/wp-includes/js/wp-embed.min.js?ver=5.2.7"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var lpGlobalSettings = {"url":"http:\/\/nict.edu.in\/courses\/c-language-2\/","siteurl":"http:\/\/nict.edu.in","ajax":"http:\/\/nict.edu.in\/wp-admin\/admin-ajax.php","theme":"full-package\/bright","localize":{"button_ok":"OK","button_cancel":"Cancel","button_yes":"Yes","button_no":"No"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var lpCheckoutSettings = {"ajaxurl":"http:\/\/nict.edu.in","user_waiting_payment":null,"user_checkout":"","i18n_processing":"Processing","i18n_redirecting":"Redirecting","i18n_invalid_field":"Invalid field","i18n_unknown_error":"Unknown error","i18n_place_order":"Place order"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var lpProfileUserSettings = {"processing":"Processing","redirecting":"Redirecting","avatar_size":{"width":200,"height":200}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var lpCourseSettings = [""];
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var lpQuizSettings = [];
+/* ]]> */
+</script>
+
+
+</body></html>
